@@ -4,8 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://darkskeletor.github.io',
-  base: '/orden_sophia/',
-  
+  base: '/Orden_Sophia/',
+
   integrations: [react()],
   vite: { plugins: [tailwindcss()] },
   server: {
