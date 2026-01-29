@@ -3,6 +3,9 @@ import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
+  site: 'https://darkskeletor.github.io',
+  base: '/orden_sophia/',
+  
   integrations: [react()],
   vite: { plugins: [tailwindcss()] },
   server: {
